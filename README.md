@@ -32,30 +32,32 @@
 <br />
 
 ## 화면 구성
+<div align="center">
+
 |인트로|
 |:---:|
-|<img src="https://github.com/kimhwanhoon/zombie-bucket-list/assets/121846231/cbbe0ee2-e69e-47df-bcc2-b40c5d93331d" width="450"/>|
+|<img src="https://github.com/kimhwanhoon/zombie-bucket-list/assets/121846231/cbbe0ee2-e69e-47df-bcc2-b40c5d93331d" width="500"/>|
 |다단계의 텍스트와 애니메이션을 사용하여 사용자에게 앱을 소개하며,<br/> 필요한 곳으로 빠르게 이동할 수 있도록 도와주는 역할을 합니다.|
 
 
 |로그인 & 회원가입|
 |:---:|
-|<img src="https://github.com/kimhwanhoon/zombie-bucket-list/assets/121846231/86ff314c-50b4-4935-96d9-a866966fca2f" width="450"/>|
+|<img src="https://github.com/kimhwanhoon/zombie-bucket-list/assets/121846231/86ff314c-50b4-4935-96d9-a866966fca2f" width="500"/>|
 |로그인과 회원가입을 통해, 사용자는 개인 버킷리스트를 작성하고<br/> 수정하며 목표를 설정하고 추적할 수 있습니다.|
 
 |메인 페이지|
 |:---:|
-|<img src="https://github.com/kimhwanhoon/zombie-bucket-list/assets/120562771/e792b83b-e9df-4d77-b138-777c39cbb024" width="450"/>|
+|<img src="https://github.com/kimhwanhoon/zombie-bucket-list/assets/120562771/e792b83b-e9df-4d77-b138-777c39cbb024" width="500"/>|
 |버킷리스트 목록, 목표 작성 모달,<br/> 태그별 카테고리 및 진행 상태를 필터링 드롭다운을 제공하여 <br/> 사용자의 편리한 버킷리스트 관리를 지원합니다.|
 
 |상세 페이지|
 |:---:|
-|<img src="https://github.com/kimhwanhoon/zombie-bucket-list/assets/121846231/d5e586b8-5742-475a-bf4a-220c74e4fae1" width="450"/>|
+|<img src="https://github.com/kimhwanhoon/zombie-bucket-list/assets/121846231/d5e586b8-5742-475a-bf4a-220c74e4fae1" width="500"/>|
 |사용자는 선택한 버킷리스트 내용 확인 및 수정, 삭제, 진행 상태<br/> 표시 등을 통해 목표 달성에 필요한 정보와 기능을 활용할 수 있습니다.|
 
 |마이 프로필|
 |:---:|
-|<img src="https://github.com/kimhwanhoon/zombie-bucket-list/assets/121846231/9d71e4d7-c8db-47cc-84e9-774318505d2d" width="450"/>|
+|<img src="https://github.com/kimhwanhoon/zombie-bucket-list/assets/121846231/9d71e4d7-c8db-47cc-84e9-774318505d2d" width="500"/>|
 |사용자가 자신의 정보를 관리하고 작성한 버킷리스트의<br/> 상태를 보며 회원정보 수정과 홈으로 이동하는 기능을 제공합니다.|
 
 <br />
@@ -83,7 +85,7 @@
 <img src="https://github.com/yewon-Noh/readme-template/blob/main/skills/Notion.png?raw=true" width="80">
 <img src="https://github.com/yewon-Noh/readme-template/blob/main/skills/Figma.png?raw=true" width="80">
 </div>
-
+</div>
 <br />
 
 ## 🤔 트러블 슈팅
@@ -92,6 +94,8 @@
     - [Authentication과 Table 다루기](https://www.notion.so/100-A-7ca88957d9c74ecd9229bb74f6ff9d96?pvs=4)
 - 회원가입 기능은 되지만 로그인 기능은 되지 않은 이슈
     - [Supabase Providers email 설정하기](https://www.notion.so/100-A-c853d59fd3da495e8cc2aa52efed5661?pvs=4)
+- TypeIt 라이브러리를 사용하여 다단계 텍스트가 제대로 작동하지 않는 이슈
+    - [TypeIt 라이브러리의 ‘afterComplete’ 특정 이벤트 활용하기](https://hamut.tistory.com/64)
 - 새로운 버킷 작성 시 목록이 즉시 갱신되지 않고 새로고침이 필요한 이슈 
     - [invalidateQueries 함수를 사용하여 데이터 캐시를 무효화하기](https://hamut.tistory.com/66)
 - 진행상태 필터링 후 "카테고리 전체보기" 탭에 버킷리스트가 렌더링되지 않는 이슈
